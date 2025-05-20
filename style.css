@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Calculator {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.display {
+    width: 280px;
+    height: 60px;
+    font-size: 40px;
+    margin: 0;
+    text-align: right;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    color: white;
+    border-radius: 100%;
+    border: none;
+    margin: 6px;
+}
+
+.clear, .zero {
+    width: 120px;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+button:hover {
+    background-color: rgb(192, 177, 169);
+}
+
+.clear, .clear_entry {
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+
+.divide, .multiply, .subtract, .add, .equals {
+    background-color: rgb(255, 174, 0);
+}
+
+.number, .zero, .decimal {
+    background-color: rgb(43, 42, 42);
+}
+
+.display::placeholder {
+    color: white;
+}
