@@ -18,9 +18,10 @@ A fully functional **Calculator App** inspired by the classic **iPhone calculato
 ---
 
 ## 📁 Project Structure
-
+```
 calculator-app/
 ├── index.html # Markup for the calculator layout
 ├── style.css # CSS for iPhone-like styling
 ├── script.js # JavaScript logic for calculator functionality
 └── screenshot.png # screenshot of the calculator UI
+```
